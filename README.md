@@ -1,4 +1,4 @@
-# File Organiser - Never have an unorganised folder again.
+# File Organiser
 A script that automatically organises files in a folder by file type.
 
 Originally designed for the "Downloads" folder, which is very commonly cluttered, but is entirely folder agnostic.
