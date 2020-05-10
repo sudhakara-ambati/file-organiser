@@ -10,7 +10,7 @@ video_exts = ["avi", "fly", "m4v", "mkv", "mov", "mp4", "mpg", "mpeg", "wmv"]
 audio_exts = ["mp3", "wav"]
 
 # documents
-text_exts = ["pdf", "txt", "doc", "docx"]
+text_exts = ["pdf", "txt", "doc", "docx", "md"]
 presentations_exts = ["ppt", "pptx", "pps"]
 spreadsheets_exts = ["xls", "xlsm", "xlsx"]
 
