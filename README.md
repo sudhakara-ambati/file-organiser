@@ -1,7 +1,7 @@
 # File Organiser
-A script that automatically organises files in a folder by file type.
+A script that automatically organises files in a folder by file type into sub-folders.
 
-Originally designed for the "Downloads" folder, which is very commonly cluttered, but is entirely folder agnostic.
+Designed with the "Downloads" folder in mind, which is very commonly cluttered, but is entirely folder agnostic.
 
 ## Requisites
 - Windows/macOS
@@ -23,6 +23,8 @@ Originally designed for the "Downloads" folder, which is very commonly cluttered
 - You can also change the directory structure by modifying the statements in the `elif`s.
 
 ## TODO
+- Currently needs to be manually run every time for organisation to occur.
+  - Find and add to instructions way to run as a background process/service/daemon.
 - Currently requires manual creation of directory structure, otherwise creates blank file and does not work.
   - Implement automatically created directory structure using `try`/`except`, `if` statement, and `os.mkdir()`.
   - This will also mitigate the need for the `.keep` files in the directory that we currently need for Git to function correctly.
