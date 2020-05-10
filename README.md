@@ -25,6 +25,7 @@ Originally designed for the "Downloads" folder, which is very commonly cluttered
 ## TODO
 - Currently requires manual creation of directory structure, otherwise creates blank file and does not work.
   - Implement automatically created directory structure using `try`/`except`, `if` statement, and `os.mkdir()`.
+  - This will also mitigate the need for the `.keep` files in the directory that we currently need for Git to function correctly.
 - Currently only organises files (and not other directories) in root directory that script is placed in.
   - Implement option/flag eg `python file_organiser.py -r` to allow organisation of files within directories recursively.
 - Method of retrieving file type is intended to work with Windows filesystems and may work on macOS, but does not extend to Linux or other UNIX based systems.
