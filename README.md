@@ -13,7 +13,7 @@ Originally designed for the "Downloads" folder, which is very commonly cluttered
 - Copy/move the folder structure and the `organise_dir.py` file into the folder you wish to organise.
   - Be carful not to overwrite folders of the same name you may currently have in the directory you wish to organise.
   - If this is the case, move all files into the root of the directory you wish to organise, or keep them in separately named folders to the ones in this program's structure.
-- Run the python script in the root directory.
+- Run the python script in the root directory, by doing `python organise_dir.py` or alternative.
 - The script will then organise all the files into their respective folders based on their extension.
 - The script will not move itself.
 
