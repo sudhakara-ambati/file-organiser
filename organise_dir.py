@@ -33,7 +33,8 @@ for f in files:                                                             # it
     
     if ".\\" + f == sys.argv[0]:                                                # verifies if the file being iterated over is the script itself
         continue                                                                # in order to not move the script itself, we skip that iteration in the loop
-    
+    elif f == "LICENSE" or f == "README.md":
+        continue
     # all statements below pertain to the movement of files to their respective directory depending on extension set
     # template past here is as follows:
     # elif file_ext in set_exts:
